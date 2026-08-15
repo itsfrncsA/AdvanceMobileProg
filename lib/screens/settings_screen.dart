@@ -44,7 +44,7 @@ class SettingsScreen extends StatelessWidget {
               leading: Icon(Icons.info_outline),
               title: Text('Lab Activity 2'),
               subtitle: Text(
-                'API integration using model, service, screen, and Provider pattern.',
+                '',
               ),
             ),
           ),

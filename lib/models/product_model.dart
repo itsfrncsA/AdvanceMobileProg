@@ -11,9 +11,6 @@ class Product {
   final String thumbnail;
   final List<String> images;
 
-  // Converted price in Philippine Pesos (approx 1 USD = 58 PHP)
-  double get priceInPhp => price * 58;
-
   const Product({
     required this.id,
     required this.title,

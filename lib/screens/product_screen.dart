@@ -60,7 +60,7 @@ class ProductScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 12),
                 Text(
-                  '₱${product.priceInPhp.toStringAsFixed(2)}',
+                  '\$${product.price.toStringAsFixed(2)}',
                   style: TextStyle(
                     fontSize: 25,
                     fontWeight: FontWeight.bold,

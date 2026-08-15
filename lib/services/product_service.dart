@@ -8,7 +8,7 @@ import '../models/product_model.dart';
 class ProductService {
   Future<List<Product>> fetchProducts() async {
     final response = await http.get(
-      Uri.parse(AppConstants.productsEndpoint),
+      Uri.parse('$host/products?limit=30'),
     );
 
     if (response.statusCode != 200) {

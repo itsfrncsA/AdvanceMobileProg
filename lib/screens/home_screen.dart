@@ -271,7 +271,7 @@ class _ProductCard extends StatelessWidget {
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      '\$${product.price.toStringAsFixed(2)}',
+                      '₱${product.priceInPhp.toStringAsFixed(2)}',
                       style: TextStyle(
                         fontSize: 17,
                         fontWeight: FontWeight.bold,

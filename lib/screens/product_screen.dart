@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../models/product_model.dart';
 import '../widgets/custom_text.dart';
 
+// Enhancement 2: Product details page screen displaying complete product information.
 class ProductScreen extends StatelessWidget {
   final Product product;
 

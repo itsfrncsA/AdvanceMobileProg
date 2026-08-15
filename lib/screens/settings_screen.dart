@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../providers/theme_provider.dart';
 
+// Enhancement 3: Dedicated Settings page with theme switch managed via Provider.
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
 
